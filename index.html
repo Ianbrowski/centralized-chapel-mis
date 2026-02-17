@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="icon" type="image/x-icon" href="img/2323.png">
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cathedral Management System - Login</title>
+
+</head>
+<body>
+	
+<div class="header">
+	<img class="pic" src="img/2323.png">
+  <h2  href="index.html" class="logo">Orange.com</h2 >
+
+  </div>
+</div>
+<section class="hero">
+
+
+  <div class="login-wrapper">
+   <div class="login-card">
+    <h2>Cathedral Management System</h2>
+    <form action="authenticate.php" method="POST">
+    <input type="text" name="user" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+   <button type="submit">Login</button>
+   </form>
+
+  </div>
+  </div>
+</section>
+
+
+     
+</div>
+
+<script>
+
+  setTimeout(function() {
+    var loader = document.getElementById('loader');
+    if (loader) {
+      loader.remove();
+    }
+  }, 2000);
+</script>
+</body>
+</html>
